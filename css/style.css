@@ -1,0 +1,267 @@
+
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+  
+
+  
+
+
+.navbar .btn{
+    background-color: #3fba96;
+    border: #3fba96 1px solid;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #202246
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3fba96
+}
+
+.navbar a{
+    font-size:20px ;
+}
+
+
+/* <!-- start skills --> */
+
+
+  @media screen and (max-width: 992px) {
+    .parag {
+        text-align: center;
+    }
+    .navbar-2 {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    margin: 0 auto;
+    display: inline-block;
+    }
+  }
+.skills{
+    margin-top: 60px;
+}
+.skills img{
+    width: 100%;
+}
+.skills h4{
+    color: #3fba96;
+    padding: 10px 15px;
+}
+.skills h2{
+    font-weight: bold;
+    font-size: 62px;
+        padding: 0 15px 10px;
+
+}
+.skills p{
+    font-weight: 400;
+    padding: 0 15px 10px;
+    font-size: 20px;
+    line-height: 2;
+}
+.skills .form{
+    position: relative;
+}
+ 
+ form {
+    display: block;
+    margin-top: 0em;
+}
+ .header-form {
+    position: relative;
+}
+ 
+ 
+ .skills .parag{
+    margin-bottom: 30px;
+ }
+
+
+
+/* <!-- end skills --> */
+
+/* <!-- start jop --> */
+
+.job{
+    margin-top: 60px;
+
+}
+.job img{
+    display: block;
+    width: 100%;
+}
+.job .parag{
+    display: block;
+
+    margin-top: 100px;
+}
+.job h2{
+    padding: 0 15px 10px;
+    font-weight: bold;
+    font-size: 48px;
+}
+.job p{
+    font-weight: 400;
+    padding: 0 15px 10px;
+    font-size: 20px;
+    line-height: 2;
+}
+.job button{
+    background-color: #3fba96;
+    border: #3fba96 1px solid;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+/* <!-- end jop --> */
+
+
+/* <!-- start work --> */
+.work{
+    margin-top: 100px;
+    display: flex;
+}
+.work h1{
+    font-weight: bold;
+    padding: 10px;
+}
+.work p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.work .card-title , .card-text{
+    margin-left: 50px;
+    padding: 5px 10px;
+}
+.work .card-title{
+    font-weight: bold;
+}
+.work .card-text{
+    line-height: 3ch;
+}
+.work .card{
+    background-color: #f3f5f4;
+    margin: 30px;
+    position: relative;
+    border: 0;
+}
+.work.work .icon{
+    position: absolute;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* <!-- end work --> */
+
+/* <!-- start courses / --> */
+.courses{
+    margin-top: 100px;
+    display: flex;
+}
+.courses h1{
+    font-weight: bold;
+    padding: 10px;
+}
+.courses p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+/* <!-- end courses / --> */
+
+
+
+/* <!-- start query  --> */
+.query{
+    margin-top: 100px;
+}
+.query img{
+    width: 100%;
+}
+.query .box{
+padding: 50px 0 0;}
+        /* <!-- end query --> */
+/* Start Footer */
+
+.footer {
+    padding: 100px 0;
+    background-color: #212730;
+  }
+  
+  .footer .site-info h2 {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+  
+ 
+  .footer .site-info p {
+    line-height: 1.8;
+    color: #fff;
+  }
+  
+  .footer .site-info a {
+    color: #9da7ab;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .footer .site-info a:before {
+    font-family: 'FontAwesome';
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .footer .site-info ul{
+        list-style: none;
+        display: flex;
+
+}
+
+  .footer .helpful-links h2,
+  .footer .contact-us h2 {
+    font-size: 22px;
+    color: #fafbfb;
+    margin-bottom: 68px;
+  }
+  
+  .footer ul li{
+    color: #b1b5b4;
+  }
+  
+  .footer .contact-us ul li {
+    margin-bottom: 24px;
+    color: #b1b5b4;
+  }
+  
+  @media (max-width: 992px) {
+    .footer .helpful-links h2,
+    .footer .contact-us h2 {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .footer .contact-us ul li {
+      margin-bottom: 5px;
+    }
+  }
+
+  /* End Footer */
